@@ -3,13 +3,13 @@ console.log('--- reverse_sortBy ---');
 
 const _ = require('lodash');
 
-const users = [
+let users = [
   {'name': 'fred',   'age': 36},
   {'name': 'barney', 'age': 40},
   {'name': 'fred',   'age': 26},
   {'name': 'barney', 'age': 30}
 ];
-cnnst usersCopy = _.clone(users);
+let usersCopy = _.clone(users);
 
 console.time('reverse');
 for (var i = 0; i < 100000; i++) {
