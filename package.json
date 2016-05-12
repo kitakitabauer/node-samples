@@ -13,7 +13,10 @@
   },
   "devDependencies": {
     "async": "^2.0.0-rc.2",
-    "bluebird": "^3.3.4"
+    "bluebird": "^3.3.4",
+    "esformatter": "^0.9.3",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^7.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
